@@ -1,0 +1,2 @@
+# MLFQ-scheduler-xv6-kernel-
+Implemented MLFQ scheduler with four priority queues; the top queue (numbered 0) has the highest priority and the bottom queue (numbered 3) has the lowest priority. When a process uses up its time-slice, it should be downgraded to the next (lower) priority level. The time-slices for higher priorities will be shorter than lower priorities.At the bottom queue of there are more than one process, they will be scheduled in Round Robin policy.
